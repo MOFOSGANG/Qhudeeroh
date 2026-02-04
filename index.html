@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A celebration of Kudi - soft, expressive, and beautifully authentic">
+    <title>Hey Kudi ✨</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Floating Emojis Background -->
+    <div class="floating-emojis" aria-hidden="true">
+        <span class="floating-emoji" style="--delay: 0s; --x: 10%;">🌺</span>
+        <span class="floating-emoji" style="--delay: 2s; --x: 25%;">❤️</span>
+        <span class="floating-emoji" style="--delay: 4s; --x: 40%;">🧸</span>
+        <span class="floating-emoji" style="--delay: 1s; --x: 55%;">✨</span>
+        <span class="floating-emoji" style="--delay: 3s; --x: 70%;">🌺</span>
+        <span class="floating-emoji" style="--delay: 5s; --x: 85%;">💕</span>
+        <span class="floating-emoji" style="--delay: 2.5s; --x: 15%;">🎨</span>
+        <span class="floating-emoji" style="--delay: 4.5s; --x: 90%;">❤️</span>
+    </div>
+
+    <!-- HEADER/LANDING SECTION -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hey Kudi ✨</h1>
+            <p class="hero-subtitle">A celebration of your beautiful, weird, expressive soul</p>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECTION 1: WELCOME MESSAGE -->
+        <section class="section welcome-section">
+            <div class="welcome-card">
+                <p class="welcome-text" id="welcomeText">
+                    I created this space to celebrate YOU, the real you. The weird parts. The expressive parts. The
+                    soft, confident, beautiful parts that make you uniquely Kudi.
+                    <br><br>
+                    This is your moment. Take it in. 🌺
+                </p>
+            </div>
+            <button class="continue-btn">Ready for more? <span class="arrow">→</span></button>
+        </section>
+
+        <!-- SECTION 2: APPRECIATION CARDS -->
+        <section class="section appreciation-section">
+            <h2 class="section-title">What Makes You Extraordinary</h2>
+            <div class="appreciation-cards">
+                <div class="appreciation-card" data-delay="0">
+                    <span class="card-emoji">🌺</span>
+                    <h3>Your Weird, Expressive Nature</h3>
+                    <p>You're weird in the most beautiful way. You don't fit the mold, and frankly? You shattered it.
+                        Your expressiveness is magnetic, the way you move through the world authentically, without
+                        apology, without filter. You give people permission to be themselves just by being
+                        unapologetically YOU. That's a gift.</p>
+                </div>
+                <div class="appreciation-card" data-delay="1">
+                    <span class="card-emoji">❤️</span>
+                    <h3>Your Emotional Intelligence</h3>
+                    <p>Your humor comes from a place of truth. You laugh at the absurd because you SEE the absurd. Your
+                        credit alert celebrations, your unfiltered conversations with people you love... these moments
+                        reveal someone who knows how to find joy in realness. You make people feel SAFE being
+                        themselves. That's rare. That's everything.</p>
+                </div>
+                <div class="appreciation-card" data-delay="2">
+                    <span class="card-emoji">🧸</span>
+                    <h3>Your Passions & Self-Knowledge</h3>
+                    <p>You know what feeds your soul: sleep that feels like meditation, food that tastes like love,
+                        drawing that lets your heart speak. You don't apologize for prioritizing what makes you feel
+                        alive. That's not laziness or indulgence, that's SELF RESPECT. That's wisdom. You understand
+                        that life isn't about doing more; it's about FEELING more.</p>
+                </div>
+                <div class="appreciation-card" data-delay="3">
+                    <span class="card-emoji">💕</span>
+                    <h3>Your Emotional Depth & Strength</h3>
+                    <p>Your capacity to love deeply and communicate honestly is your superpower. You've grown into
+                        yourself with intention. You've accepted your identity, all of it. That journey? That took
+                        courage. Your softness isn't weakness; it's your strength. Your vulnerability is your power.
+                        You're soft AND confident. That's the perfect balance.</p>
+                </div>
+            </div>
+            <button class="continue-btn">See your moments ✨ <span class="arrow">→</span></button>
+        </section>
+
+        <!-- SECTION 3: PHOTO SLIDESHOW -->
+        <section class="section slideshow-section">
+            <h2 class="section-title">Moments of You ✨</h2>
+            <div class="slideshow-container">
+                <div class="slideshow">
+                    <!-- Photo 1 -->
+                    <div class="slide active">
+                        <img src="images/Snapchat-1230866269.jpg" alt="Kudi Moment 1" loading="lazy">
+                        <div class="slide-overlay">
+                            <p class="slide-compliment">Your style speaks volumes. Clean, intentional, unapologetically
+                                you 🖤</p>
+                        </div>
+                    </div>
+                    <!-- Video 1 -->
+                    <div class="slide">
+                        <video src="images/Snapchat-2007682303.mp4" muted loop playsinline></video>
+                        <div class="slide-overlay">
+                            <p class="slide-compliment">That rawness in your expression? It's your most beautiful
+                                feature ✨</p>
+                        </div>
+                    </div>
+                    <!-- Photo 2 -->
+                    <div class="slide">
+                        <img src="images/Snapchat-2091891974.jpg" alt="Kudi Moment 2" loading="lazy">
+                        <div class="slide-overlay">
+                            <p class="slide-compliment">The way you carry yourself... confident, soft, magnetic 🌺</p>
+                        </div>
+                    </div>
+                    <!-- Video 2 -->
+                    <div class="slide">
+                        <video src="images/Snapchat-2053229378.mp4" muted loop playsinline></video>
+                        <div class="slide-overlay">
+                            <p class="slide-compliment">Your laugh is contagious music to the soul 🎶</p>
+                        </div>
+                    </div>
+                    <!-- Photo 3 -->
+                    <div class="slide">
+                        <img src="images/Snapchat-500184269.jpg" alt="Kudi Moment 3" loading="lazy">
+                        <div class="slide-overlay">
+                            <p class="slide-compliment">Your eyes are windows to your beautiful, complex soul 💕</p>
+                        </div>
+                    </div>
+                    <!-- Video 3 -->
+                    <div class="slide">
+                        <video src="images/Snapchat-274815346.mp4" muted loop playsinline></video>
+                        <div class="slide-overlay">
+                            <p class="slide-compliment">Pure, unfiltered magic in motion ✨</p>
+                        </div>
+                    </div>
+                    <!-- Photo 4 -->
+                    <div class="slide">
+                        <img src="images/Snapchat-550888226.jpg" alt="Kudi Moment 4" loading="lazy">
+                        <div class="slide-overlay">
+                            <p class="slide-compliment">You light up when you're authentic. That's when you're most
+                                beautiful 🧸</p>
+                        </div>
+                    </div>
+                    <!-- Photo 5 -->
+                    <div class="slide">
+                        <img src="images/Snapchat-810925505.jpg" alt="Kudi Moment 5" loading="lazy">
+                        <div class="slide-overlay">
+                            <p class="slide-compliment">Every movement tells a story of grace and strength 🌺</p>
+                        </div>
+                    </div>
+                    <!-- Video 4 -->
+                    <div class="slide">
+                        <video src="images/Snapchat-363499516.mp4" muted loop playsinline></video>
+                        <div class="slide-overlay">
+                            <p class="slide-compliment">Your energy is magnetic and unforgettable 💫</p>
+                        </div>
+                    </div>
+                    <!-- Video 5 -->
+                    <div class="slide">
+                        <video src="images/Snapchat-930751355.mp4" muted loop playsinline></video>
+                        <div class="slide-overlay">
+                            <p class="slide-compliment">Moments like these are what make you special 🌺</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideshow-controls">
+                    <button class="slide-btn prev-btn">◀ Previous</button>
+                    <button class="slide-btn next-btn">Next ▶</button>
+                </div>
+                <div class="slide-counter">
+                    <span id="currentSlide">1</span> of <span id="totalSlides">10</span> ✨
+                </div>
+            </div>
+            <button class="continue-btn">More memories 📸 <span class="arrow">→</span></button>
+        </section>
+
+        <!-- PHOTO MEMORIES GRID -->
+        <section class="section memories-section">
+            <h2 class="section-title">Polaroid Memories 📸</h2>
+            <p class="section-subtitle">Hover to reveal little love notes</p>
+            <div class="polaroid-grid">
+                <div class="polaroid">
+                    <img src="images/Snapchat-1230866269.jpg" alt="Memory 1" loading="lazy">
+                    <div class="polaroid-caption">
+                        <p>Those eyes though 💕</p>
+                    </div>
+                </div>
+                <div class="polaroid">
+                    <img src="images/Snapchat-2091891974.jpg" alt="Memory 2" loading="lazy">
+                    <div class="polaroid-caption">
+                        <p>Magnetic energy 🌺</p>
+                    </div>
+                </div>
+                <div class="polaroid">
+                    <img src="images/Snapchat-500184269.jpg" alt="Memory 3" loading="lazy">
+                    <div class="polaroid-caption">
+                        <p>That effortless style ✨</p>
+                    </div>
+                </div>
+                <div class="polaroid">
+                    <img src="images/Snapchat-550888226.jpg" alt="Memory 4" loading="lazy">
+                    <div class="polaroid-caption">
+                        <p>Authentically you 🧸</p>
+                    </div>
+                </div>
+                <div class="polaroid">
+                    <img src="images/Snapchat-810925505.jpg" alt="Memory 5" loading="lazy">
+                    <div class="polaroid-caption">
+                        <p>Grace in motion 🌺</p>
+                    </div>
+                </div>
+            </div>
+            <button class="continue-btn">Your sacred spaces 🌿 <span class="arrow">→</span></button>
+        </section>
+
+        <!-- SECTION 4: YOUR SACRED SPACES -->
+        <section class="section sacred-section">
+            <h2 class="section-title">Your Sacred Spaces</h2>
+            <p class="section-subtitle">These aren't just hobbies. They're your sanctuary. Your medicine. Your language.
+            </p>
+            <div class="sacred-cards">
+                <div class="sacred-card">
+                    <span class="sacred-emoji">😴</span>
+                    <h3>Sleep</h3>
+                    <p>Sleep isn't weakness; it's your sanctuary. It's where your mind rests, your body heals, your soul
+                        resets. You know the power of rest, and you honor it. That's wisdom in a world obsessed with
+                        doing. Sleep is your love letter to yourself.</p>
+                </div>
+                <div class="sacred-card">
+                    <span class="sacred-emoji">🍽️</span>
+                    <h3>Good Food</h3>
+                    <p>Food is more than fuel for you. It's an experience. A celebration. A moment of pure joy. You
+                        taste life. You savor it. The way you find pleasure in the simple act of eating well? That's
+                        living fully. That's self-love in the most delicious form.</p>
+                </div>
+                <div class="sacred-card">
+                    <span class="sacred-emoji">🎨</span>
+                    <h3>Drawing</h3>
+                    <p>Your art is your soul's language. When words fail, your drawings speak. Every line, every sketch,
+                        every creation is a piece of your heart on paper. You're not just drawing; you're communicating.
+                        You're expressing what lives inside. That's profound.</p>
+                </div>
+                <div class="sacred-card">
+                    <span class="sacred-emoji">🌺</span>
+                    <h3>Authenticity</h3>
+                    <p>Being yourself without apology is your greatest superpower. In a world of masks and filters, you
+                        choose truth. You choose genuine conversations. You choose to show up as YOU. That takes more
+                        courage than most will ever know.</p>
+                </div>
+            </div>
+            <button class="continue-btn">Your essence 💎 <span class="arrow">→</span></button>
+        </section>
+
+        <!-- SECTION 5: QUALITIES GRID -->
+        <section class="section qualities-section">
+            <h2 class="section-title">The Essence of Kudi</h2>
+            <p class="section-subtitle">Here's what I see when I look at you</p>
+            <div class="qualities-grid">
+                <div class="quality-card">
+                    <span class="quality-emoji">🌺</span>
+                    <h3>Soft & Expressive</h3>
+                    <p>You feel deeply and show it freely. Your emotions don't scare you; they define you. You wear your
+                        heart on your sleeve, and that vulnerability? That's your greatest strength.</p>
+                </div>
+                <div class="quality-card">
+                    <span class="quality-emoji">❤️</span>
+                    <h3>Emotionally Intelligent</h3>
+                    <p>You understand people at a level most miss. You see beneath the surface. You know yourself, your
+                        triggers, your growth edges. That self-awareness is rare and beautiful.</p>
+                </div>
+                <div class="quality-card">
+                    <span class="quality-emoji">✨</span>
+                    <h3>Authentically Confident</h3>
+                    <p>You're soft, but you're not fragile. You're confident, but you're not arrogant. That balance?
+                        That's the sweet spot. That's YOU.</p>
+                </div>
+                <div class="quality-card">
+                    <span class="quality-emoji">🎨</span>
+                    <h3>Creatively Expressive</h3>
+                    <p>Your drawing, your TikTok presence, your way of being... it's all art. You're not just creating;
+                        you're communicating your truest self.</p>
+                </div>
+                <div class="quality-card">
+                    <span class="quality-emoji">🧸</span>
+                    <h3>Knowingly Self Aware</h3>
+                    <p>You get fed up easily because you have standards. For yourself. For your people. That's not a
+                        flaw; that's knowing your worth.</p>
+                </div>
+                <div class="quality-card">
+                    <span class="quality-emoji">💕</span>
+                    <h3>Bravely Vulnerable</h3>
+                    <p>You love deeply. You communicate honestly. You accept your identity. That journey took courage.
+                        That's strength.</p>
+                </div>
+            </div>
+            <button class="continue-btn">Your journey 🛤️ <span class="arrow">→</span></button>
+        </section>
+
+        <!-- SECTION 6: YOUR BEAUTIFUL JOURNEY -->
+        <section class="section journey-section">
+            <h2 class="section-title">Your Beautiful Journey</h2>
+            <p class="section-subtitle">Celebrating how far you've come</p>
+            <div class="journey-timeline">
+                <div class="journey-item">
+                    <div class="journey-marker"></div>
+                    <div class="journey-content">
+                        <h3>✨ Emotional Growth</h3>
+                        <p>Your capacity to understand yourself better, to recognize your patterns, to evolve... that's
+                            not small. That's EVERYTHING. You're not who you were. You're becoming who you're meant to
+                            be.</p>
+                    </div>
+                </div>
+                <div class="journey-item">
+                    <div class="journey-marker"></div>
+                    <div class="journey-content">
+                        <h3>🌺 Identity Acceptance</h3>
+                        <p>The courage it took to accept all of yourself, even the parts that don't fit neatly into
+                            boxes? That's the bravest thing. You've given yourself permission to exist as you are.
+                            That's freedom.</p>
+                    </div>
+                </div>
+                <div class="journey-item">
+                    <div class="journey-marker"></div>
+                    <div class="journey-content">
+                        <h3>❤️ Love & Communication</h3>
+                        <p>You love without reservation and speak your truth without fear. In a world of people afraid
+                            of their own hearts, you're a beacon. You show others how to be human.</p>
+                    </div>
+                </div>
+                <div class="journey-item">
+                    <div class="journey-marker"></div>
+                    <div class="journey-content">
+                        <h3>🎨 Creative Expression</h3>
+                        <p>Through TikTok (@heluvsjoke), through your drawings, through the way you exist... you're
+                            creating art. You're expressing. You're saying 'this is me' unapologetically.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="continue-btn">A letter for you 💌 <span class="arrow">→</span></button>
+        </section>
+
+        <!-- SECTION 7: PERSONAL MESSAGE -->
+        <section class="section letter-section">
+            <h2 class="section-title">A Letter to You</h2>
+            <div class="letter-card">
+                <div class="letter-content">
+                    <p>There's something about the way you move through the world that's magnetic. You don't try to be
+                        anyone else. You can't, and I'm grateful for that.</p>
+
+                    <p>Your weirdness is your magic. The way you think, the way you see the world, the things that make
+                        you laugh at 3 AM... that's what makes you irreplaceable. Never soften that. Never apologize for
+                        it.</p>
+
+                    <p>I see your softness, and I see your strength coexisting in perfect balance. You're not too much.
+                        You're exactly enough. Your expressiveness isn't overwhelming; it's healing. The way you
+                        communicate honestly, the way you love without holding back... people feel SAFE around you
+                        because you're safe with yourself.</p>
+
+                    <p>You get fed up easily? Good. That means you have standards. You know your worth. You're selective
+                        about your energy. That's not a flaw; that's self respect.</p>
+
+                    <p>Your emotional growth has been beautiful to witness. The way you've accepted your identity, all
+                        the parts of you... soft, expressive, creative, deep... shows a courage most people will never
+                        have. You're not just surviving; you're thriving.</p>
+
+                    <p><em>Keep sleeping when you need to.</em> Sleep isn't laziness; it's meditation.<br>
+                        <em>Keep eating the good food.</em> Food is joy when you eat it with intention.<br>
+                        <em>Keep drawing. Keep creating.</em> Keep expressing what lives in your heart.<br>
+                        <em>Keep being weird. Keep being expressive.</em> Keep being YOU.
+                    </p>
+
+                    <p class="letter-closing">The world is exponentially better because you're in it. And I mean that.
+                        🌺</p>
+                </div>
+            </div>
+            <button class="continue-btn">Your superpowers 🦸‍♀️ <span class="arrow">→</span></button>
+        </section>
+
+        <!-- SECTION 8: SUPERPOWERS -->
+        <section class="section superpowers-section">
+            <h2 class="section-title">Your Superpowers Decoded</h2>
+            <div class="superpowers-grid">
+                <div class="superpower-card">
+                    <span class="superpower-emoji">🌺</span>
+                    <h3>Soft But Unshakeable</h3>
+                    <p>Your gentleness isn't weakness. It's a strength that holds space for others while holding firm
+                        boundaries for yourself.</p>
+                </div>
+                <div class="superpower-card">
+                    <span class="superpower-emoji">❤️</span>
+                    <h3>Deep Lover</h3>
+                    <p>You don't do surface level. You invest in people. You show up. You care deeply. That's your
+                        superpower.</p>
+                </div>
+                <div class="superpower-card">
+                    <span class="superpower-emoji">🎨</span>
+                    <h3>Creative Communicator</h3>
+                    <p>When words fail, your art speaks. Your drawings are conversations with your soul. That's
+                        profound.</p>
+                </div>
+                <div class="superpower-card">
+                    <span class="superpower-emoji">👁️</span>
+                    <h3>Soul Reader</h3>
+                    <p>Your eyes see what others miss. You notice people. You see their truth. That's a gift.</p>
+                </div>
+                <div class="superpower-card">
+                    <span class="superpower-emoji">🧸</span>
+                    <h3>Safety Creator</h3>
+                    <p>Spaces feel different when you're in them. Warmer. Safer. More real. You make people feel at home
+                        in themselves.</p>
+                </div>
+                <div class="superpower-card">
+                    <span class="superpower-emoji">💬</span>
+                    <h3>Honest Voice</h3>
+                    <p>In a world of filters, you choose truth. That takes courage. That inspires change.</p>
+                </div>
+            </div>
+            <button class="continue-btn">The Kudi Effect ✨ <span class="arrow">→</span></button>
+        </section>
+
+        <!-- SECTION 9: YOUR VIBE -->
+        <section class="section vibe-section">
+            <h2 class="section-title">The Kudi Effect</h2>
+            <div class="vibe-content">
+                <p>When you walk into a room, things shift. People relax. Conversations become real. That's because
+                    you've decided authenticity matters more than comfort.</p>
+
+                <p>Your vibe is cozy intimacy mixed with quiet confidence. You're trendy but timeless. You're soft but
+                    grounded. You're expressive but thoughtful. That balance is rare.</p>
+
+                <p>You laugh at things that don't make sense because you understand that life is beautifully absurd. You
+                    celebrate the small wins because you know joy is in the details. You prioritize sleep, good food,
+                    and art because you understand that taking care of your soul is just as important as anything else.
+                </p>
+
+                <p>The people you let close know the real you. Unfiltered. Honest. Beautiful in your complexity. That's
+                    the gift you give... permission to be real.</p>
+
+                <p class="vibe-closing">Your presence is a form of art. The way you exist is a statement. Keep being
+                    exactly this. 🌺</p>
+            </div>
+            <button class="continue-btn">Your manifesto 📜 <span class="arrow">→</span></button>
+        </section>
+
+        <!-- SECTION 10: MANIFESTO -->
+        <section class="section manifesto-section">
+            <h2 class="section-title">Your Manifesto</h2>
+            <div class="manifesto-content">
+                <p>Don't apologize for your weirdness. <strong>It's your signature.</strong></p>
+                <p>Don't dim your expressiveness. <strong>It's your light.</strong></p>
+                <p>Don't question your softness. <strong>It's your strength.</strong></p>
+                <p>Don't rush your growth. <strong>You're exactly where you need to be.</strong></p>
+                <p>Don't settle for surface level. <strong>You deserve depth.</strong></p>
+                <p>Don't compromise your authenticity. <strong>It's your power.</strong></p>
+                <p>Don't stop creating. <strong>Your art matters.</strong></p>
+                <p>Don't stop sleeping. <strong>Rest is resistance.</strong></p>
+                <p>Don't stop eating well. <strong>Pleasure is sacred.</strong></p>
+                <p class="manifesto-final">Don't stop being YOU.</p>
+                <p class="manifesto-emoji">🌺❤️</p>
+            </div>
+            <button class="continue-btn">Celebrate you 🎉 <span class="arrow">→</span></button>
+        </section>
+
+        <!-- SECTION 11: FINAL CELEBRATION -->
+        <section class="section celebration-section">
+            <h2 class="section-title">You Deserve All the Good Things</h2>
+            <div class="celebration-content">
+                <p>Thank you for being authentically, unapologetically, beautifully YOU.</p>
+
+                <p class="celebration-lines">
+                    The world needed your weirdness.<br>
+                    The world needed your expressiveness.<br>
+                    The world needed your softness.<br>
+                    The world needed YOU.
+                </p>
+
+                <p class="celebration-closing">Keep shining. Keep creating. Keep loving. Keep being. 🌺❤️🧸</p>
+
+                <button class="celebration-btn" id="celebrateBtn">
+                    You're My Favorite ✨
+                </button>
+
+                <div class="celebration-message" id="celebrationMessage">
+                    You're absolutely incredible 🌺
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-love">Made with ❤️ for Kudi</p>
+            <div class="footer-note">
+                <p class="footer-signature">From your Big Daddy Mofe</p>
+                <span class="footer-emoji">🌺</span>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-heart">💕</div>
+            <h2 class="loading-text">Hey Kudi</h2>
+            <div class="loading-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confetti Container -->
+    <div class="confetti-container" id="confettiContainer"></div>
+
+    <!-- Click Sparkles Container -->
+    <div class="sparkles-container" id="sparklesContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
