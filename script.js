@@ -199,21 +199,21 @@ function initSlideshow() {
     // Touch/swipe support
     let touchStartX = 0;
     let touchEndX = 0;
-    const slideshow = document.querySelector('.slideshow');
+    const slideshowContainer = document.querySelector('.slideshow-container');
 
-    if (slideshow) {
-        slideshow.addEventListener('touchstart', (e) => {
-            touchStartX = e.changedTouches[0].screenX;
+    if (slideshowContainer) {
+        slideshowContainer.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].clientX;
         }, { passive: true });
 
-        slideshow.addEventListener('touchend', (e) => {
-            touchEndX = e.changedTouches[0].screenX;
+        slideshowContainer.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].clientX;
             handleSwipe();
         }, { passive: true });
     }
 
     function handleSwipe() {
-        const swipeThreshold = 50;
+        const swipeThreshold = 30; // More sensitive
         const diff = touchStartX - touchEndX;
 
         if (Math.abs(diff) > swipeThreshold) {
